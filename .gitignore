@@ -1,0 +1,16 @@
+# QuestaSim / ModelSim
+work/
+transcript
+*.wlf
+vsim.wlf
+modelsim.ini
+
+# Gowin EDA & Quartus
+impl/
+db/
+incremental_db/
+*.qpf
+*.qsf
+*.rpt
+*.sof
+*.fs
