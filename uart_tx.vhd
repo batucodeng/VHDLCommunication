@@ -34,9 +34,9 @@ if(rst = '1') then
 state <= IDLE;
 baud_counter <= 0;
 bit_index <= 0;
-tx_buffer <= (others => 0);
+tx_buffer <= (others => '0');
 tx_line <= '1'; --uart hattı boşta
-tx_busy <= 0;
+tx_busy <= '0';
 
 elsif rising_edge(clk) then
 case state is
